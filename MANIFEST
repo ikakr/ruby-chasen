@@ -1,0 +1,4 @@
+MANIFEST
+chasen.c
+extconf.rb
+test.rb

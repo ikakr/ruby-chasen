@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>Chasen</TITLE>
+</HEAD>
+<BODY>
+<HR>
+<dl>
+<dt> <H1>Chasen</H1>
+<dd> 
+<P>
+茶筌ライブラリ(libchasen)にアクセスするモジュール。
+特異メソッドを呼び出す方法と、クラスにインクルードする方法があります。
+</P>
+<P>
+例:
+</P>
+<blockquote>
+<pre>
+result = Chasen.sparse("本日は晴天なり。")
+include Chasen
+result2 = sparse("本日は晴天なり。")
+</pre>
+</blockquote>
+<p>
+<dt> モジュール関数:
+<dd> 
+<DL COMPACT>
+
+<DT>
+<A NAME="getopt"><CODE>getopt(<VAR>opt1</VAR>, <VAR>opt2</VAR>...)</CODE></A>
+<DD>
+<p>
+<VAR>opt1</VAR>, <VAR>opt2</VAR>...を茶筌ライブラリのgetoptに渡して、初期化します。<BR>
+詳しくは、茶筌のドキュメントを読んで下さい。
+</p>
+
+<DT>
+<A NAME="sparse"><CODE>sparse(<VAR>str</VAR>)</CODE></A>
+<DD>
+<p>
+String <VAR>str</VAR>を解析して、結果を String として返します。
+</p>
+
+<DT>
+<A NAME="fparse"><CODE>fparse(<VAR>file</VAR>)</CODE></A>
+<DD>
+<p>
+File <VAR>file</VAR>を解析して、結果を String として返します。
+</p>
+
+</DL>
+
+<HR>
+
+<P ALIGN=right><A HREF="mailto:ikarashi@d3.dion.ne.jp">ikarashi@d3.dion.ne.jp</A></P>
+</BODY>
+</HTML>
